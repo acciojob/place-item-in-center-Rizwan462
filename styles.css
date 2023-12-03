@@ -3,26 +3,20 @@
 body{
 	margin: 0;
 	padding: 0;
-	height: 100vh;
-	width: 100vw;
+	
 }
 .holder{
-	height: 100vh;
-	width: 100vw;
+	
+	height:100vh;
+	background-color: gray;
 	display: flex;
-	align-item: center;
 	justify-content: center;
-	position: relative;
-
+	align-items: center;
 	
 }
 .item-1{
 	width: 100px;
 	height: 100px;
 	background-color: red;
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-item: center;
+	
 }
